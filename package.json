@@ -4,7 +4,7 @@
    "license": "MIT",
    "description": "Awesome project developed with TypeORM.",
    "main": "src/index.js",
-   "type": "module",
+   "type": "commonjs",
    "devDependencies": {
       "@types/cors": "^2.8.13",
       "@types/node": "^16.11.10",
