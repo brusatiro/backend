@@ -7,7 +7,7 @@ var cors = require("cors");
 var routes_1 = require("./routes");
 // create express app
 var app = express();
-app.use(cors());
+app.use(cors({ origin: 'https://frontend-fiap.herokuapp.com' }));
 app.use(bodyParser.json());
 app.use(routes_1.default);
 // start express server

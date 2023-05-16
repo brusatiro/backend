@@ -5,7 +5,7 @@ import cors from "cors";
 import routes from "./routes";
 
 const app = express()
-app.use(cors())
+app.use(cors({ origin: 'https://frontend-fiap.herokuapp.com' }));
 app.use(bodyParser.json())
 app.use(routes)
  
