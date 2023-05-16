@@ -22,7 +22,7 @@
    },
    "scripts": {
       "dev": "nodemon src/index.ts",
-      "start": "cd dist &&; node src/index.ts",
+      "start": "cd dist && node src/index.ts",
       "build": "tsc -p ."
    }
 }
